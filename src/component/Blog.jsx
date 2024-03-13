@@ -60,7 +60,7 @@ function Blog() {
      {
            populardata.map((item)=>(
                <>
-               <Card className=" my-5 mx-2 flex flex-row p-6 gap-5  justify-center items-center" key={item.id}>
+               <Card className=" my-5 mx-2 flex flex-col sm:flex-row p-6 gap-5  justify-center items-center" key={item.id}>
                 <div className=" w-64">
                 <img src={item.image} alt={item.title} className="w-full" />
                 </div>

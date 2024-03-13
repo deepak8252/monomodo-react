@@ -7,6 +7,6 @@ option{
 .hero{
     background-image:linear-gradient(40deg, rgba(0, 0, 0, 0.5)100%, transparent 50%), url("./assets/img/momonodo.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:top center;
     background-size: 100% 100%;
 }
