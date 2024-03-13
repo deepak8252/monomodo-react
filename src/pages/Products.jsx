@@ -8,7 +8,8 @@ import Blog from '../component/Blog'
 
 const Products = () => {
   return (
-    <div><Hero/>
+    <div>
+      <Hero/>
     <Booking/>
     <Funcoverd/>
     <Newsletter/>
